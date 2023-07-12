@@ -1,8 +1,8 @@
-const { defaults: tsjPreset } = require('ts-jest/presets');
+const { defaults: tsjPreset } = require("ts-jest/presets");
 
 module.exports = {
-  preset: '@shelf/jest-mongodb',
-  testEnvironment: 'node',
+  preset: "@shelf/jest-mongodb",
+  testEnvironment: "node",
   transform: tsjPreset.transform,
-  testPathIgnorePatterns: ['dist'],
+  testPathIgnorePatterns: ["dist"],
 };
